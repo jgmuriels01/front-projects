@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+/*
+  Tailwind organiza sus estilos en tres capas internas:
+  @layer base → estilos base (reset de navegador, tipografías globales, etc.)
+  @layer components → estilos de componentes reutilizables
+  @layer utilities → las clases utilitarias (p-4, text-center, bg-blue-500, etc.)
+*/
+@import "tailwindcss";
+@import "./styles/base.css";
+@import "./styles/components.css";
+
+
+@theme {
+  --font-game: "Press Start 2P", "cursive";
+  --color-brand-100: #00f6ff;
+  --color-brand-200: #00add9;
+  --color-brand-300: #007092;
+  --color-brand-400: #003f56;
+  --color-brand-500: #001a27;
+}
